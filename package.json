@@ -25,9 +25,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "cross-env PUBLIC_URL=/chat HOST=0.0.0.0 react-scripts start",
-    "start_linux": "PUBLIC_URL=/chat HOST=0.0.0.0 react-scripts start",
-    "start_windows": "cross-env PUBLIC_URL=/chat HOST=0.0.0.0 react-scripts start",
+    "start": "react-scripts start",
+    "start_linux": "HOST=0.0.0.0 react-scripts start",
+    "start_windows": "cross-env HOST=0.0.0.0 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
